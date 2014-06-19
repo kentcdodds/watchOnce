@@ -15,7 +15,7 @@ Or by using bower or npm:
 Include it on your page with a script tag. And add it to your dependencies:
 
 ```javascript
-angular.module('app', 'Scope.$wachOnce');
+angular.module('app', ['Scope.$wachOnce']);
 
 // Then you can do this:
 
