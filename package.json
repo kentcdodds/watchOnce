@@ -1,6 +1,6 @@
 {
   "name": "watch-once",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple module for angular that adds $watchOnce capabilities to the $rootScope",
   "main": "Scope.$watchOnce.js",
   "dependencies": {

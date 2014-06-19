@@ -32,6 +32,13 @@ See the test-runner.js and the [demo page](http://kent.doddsfamily.us/watchOnce)
 
 This is compatible with Angular >= 1.0.0. Note, that older versions only had `$watch` so only `$watchOnce` is supported for the older versions.
 
+## No grunt/gulp/mocha/jasmin/whatever?
+
+It's small... I haven't taken the time to make a build. But there are tests, just not using a testing framework... And this is all you have to do with each update:
+
+- run `$ uglifyjs Scope.\$watchOnce.js --comments --so -o Scope.\$watchOnce.min.js`
+- Bump `bower.json` and `package.json` versions.
+
 ## License
 
 MIT

@@ -9,6 +9,7 @@
  * @author Kent C. Dodds <kent@doddsfamily.us> (http://kent.doddsfamily.us)
  */
  angular.module('Scope.$watchOnce', []).run(['$rootScope', function($rootScope) {
+  'use strict';
 
   var valueValidators = {
     $watch: angular.isDefined,
@@ -33,6 +34,7 @@
       };
       var listenerWrapper = getListenerWrapper(listener, stopWatching, valueValidators[name]);
       stopWatching.fn = this[name].apply(this, [expression, listenerWrapper, deep]);
+      return stopWatching.fn;
     };
   }
   
@@ -43,6 +45,6 @@
       }
       listener.apply(this, arguments);
       stopWatching.fn();
-    }
+    };
   }
 }]);
