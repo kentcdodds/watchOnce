@@ -8,7 +8,7 @@ Get the code on [GitHub](http://github.com/kentcdodds/watchOnce): [Scope.$watchO
 
 Or by using bower or npm:
 
-`bower|npm install watchOnce`
+`bower|npm install watch-once`
 
 ## To Use
 
