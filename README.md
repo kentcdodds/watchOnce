@@ -1,5 +1,9 @@
 # $watchOnce
 
+[![Bower version](https://badge.fury.io/bo/watch-once.svg)](http://badge.fury.io/bo/watch-once)
+[![NPM version](http://img.shields.io/npm/v/watch-once.svg)](http://img.shields.io/npm/v/watch-once.svg)
+[![Code Climate](https://codeclimate.com/github/kentcdodds/watchOnce.png)](https://codeclimate.com/github/kentcdodds/watchOnce)
+
 This module adds `$watchOnce`, `$watchGroupOnce`, and `$watchCollectionOnce` to angular scopes. Each of these have the same signature as their angular counterparts. The difference is the listener you provide is only called once, and only when the value is defined. Note that for `$watchGroupOnce`, it will only be called when *every* expression's value is defined. Also, `$watchGroupOnce` is only available in Angular >= 1.3. Once your listner has been called, the watcher stop itself from watching.
 
 ## To Get
@@ -42,3 +46,12 @@ It's small... I haven't taken the time to make a build. But there are tests, jus
 ## License
 
 MIT
+
+## Badges for fun...
+
+NPM Downloads: [![NPM Downloads](http://img.shields.io/npm/dm/watch-once.svg)](http://img.shields.io/npm/dm/watch-once.svg)
+
+GitHub Release: [![GitHub Release](http://img.shields.io/github/release/kentcdodds/watchOnce.svg)](http://img.shields.io/github/release/kentcdodds/watchOnce.svg)
+
+GitHub Issues: [![GitHub Issues](http://img.shields.io/github/issues/badges/shields.svg)](http://img.shields.io/github/issues/badges/shields.svg)
+
