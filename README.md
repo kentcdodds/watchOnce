@@ -2,7 +2,7 @@
 
 [![Bower version](https://badge.fury.io/bo/watch-once.svg)](http://badge.fury.io/bo/watch-once)
 [![NPM version](http://img.shields.io/npm/v/watch-once.svg)](http://img.shields.io/npm/v/watch-once.svg)
-[![Code Climate](http://img.shields.io/codeclimate/github/kentcdodds/watchOnce.svg)](http://img.shields.io/codeclimate/github/kentcdodds/watchOnce.svg)
+[![Code Climate](http://img.shields.io/codeclimate/github/kentcdodds/watchOnce.svg)](https://codeclimate.com/github/kentcdodds/watchOnce)
 
 This module adds `$watchOnce`, `$watchGroupOnce`, and `$watchCollectionOnce` to angular scopes. Each of these have the same signature as their angular counterparts. The difference is the listener you provide is only called once, and only when the value is defined. Note that for `$watchGroupOnce`, it will only be called when *every* expression's value is defined. Also, `$watchGroupOnce` is only available in Angular >= 1.3. Once your listner has been called, the watcher stop itself from watching.
 
