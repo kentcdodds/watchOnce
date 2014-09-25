@@ -6,7 +6,10 @@
   "dependencies": {
     "angular": ">=1.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jshint": "^2.5.6",
+    "uglify-js": "^2.4.15"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/kentcdodds/watchOnce.git"

@@ -1,0 +1,14 @@
+language:
+ - node_js
+node_js:
+ - '0.10'
+branches:
+  only:
+    - master
+before_script:
+ - npm install
+script:
+ - scripts/build
+email:
+  on_failure: change
+  on_success: never
