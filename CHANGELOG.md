@@ -1,3 +1,9 @@
+# 1.0.0
+
+## Features
+
+- Bumping to 1.0.0. Adding travis, and improving codeclimate (didn't actually change any of the content of the file).
+
 # 0.0.3
 
 ## Features

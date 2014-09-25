@@ -1,5 +1,6 @@
 /**
  * @name Scope.$watchOnce
+ * @version 1.0.0
  * @fileOverview The Scope.$watchOnce module adds $watchOnce functionality to your $rootScope
  *
  * http://www.github.com/kentcdodds/watchOnce
