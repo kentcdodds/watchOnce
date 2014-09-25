@@ -6,7 +6,7 @@
 
 [![NPM](https://nodei.co/npm/watch-once.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/watch-once/)
 
-This module adds `$watchOnce`, `$watchGroupOnce`, and `$watchCollectionOnce` to angular scopes. Each of these have the same signature as their angular counterparts. The difference is the listener you provide is only called once, and only when the value is defined. Note that for `$watchGroupOnce`, it will only be called when *every* expression's value is defined. Also, `$watchGroupOnce` is only available in Angular >= 1.3. Once your listner has been called, the watcher stop itself from watching.
+This module adds `$watchOnce`, `$watchGroupOnce`, and `$watchCollectionOnce` to angular scopes. Each of these have the same signature as their angular counterparts. The difference is the listener you provide is only called once, and only when the value is defined. Note that for `$watchGroupOnce`, it will only be called when *every* expression's value is defined. Also, `$watchGroupOnce` is only available in Angular >= 1.3. Once your listener has been called, the watcher stops itself from watching.
 
 ## To Get
 
