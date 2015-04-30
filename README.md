@@ -21,7 +21,18 @@ Or by using bower or npm:
 Include it on your page with a script tag (or require it in using commonjs or amd) and add it to your dependencies:
 
 ```javascript
+// CommonJS
+angular.module('app', [require('watch-once')]);
+
+// AMD
+define(['path/to/Scope.$watchOnce.js'], function(watchOnce) {
+  angular.module('app', [watchOnce]);
+});
+
+// global
 angular.module('app', ['Scope.$watchOnce']);
+
+
 
 // Then you can do this:
 
@@ -36,6 +47,6 @@ $scope.$watchOnce('expression', function(value) {
 
 See the test-runner.js and the [demo page](http://kent.doddsfamily.us/watchOnce) (which runs the test runner).
 
-## Angular compatability
+## Angular compatibility
 
 This is compatible with Angular >= 1.0.0. Note, that older versions only had `$watch` so only `$watchOnce` is supported for the older versions.
