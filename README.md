@@ -21,7 +21,7 @@ Or by using bower or npm:
 Include it on your page with a script tag (or require it in using commonjs or amd) and add it to your dependencies:
 
 ```javascript
-angular.module('app', ['Scope.$wachOnce']);
+angular.module('app', ['Scope.$watchOnce']);
 
 // Then you can do this:
 
