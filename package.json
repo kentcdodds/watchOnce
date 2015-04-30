@@ -15,8 +15,11 @@
     "url": "https://github.com/kentcdodds/watchOnce.git"
   },
   "scripts": {
+    "build": "scripts/build",
     "uglify": "uglifyjs -mt --comments -o 'Scope.$watchOnce.min.js' 'Scope.$watchOnce.js'",
-    "test": "jshint 'Scope.$watchOnce.js'"
+    "test": "jshint 'Scope.$watchOnce.js'",
+    "release": "git push && npm publish && git push --tags",
+    "release:beta": "git push && npm publish --tag beta && git push --tags"
   },
   "keywords": [
     "angular",

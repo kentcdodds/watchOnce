@@ -1,3 +1,7 @@
+# 1.1.0
+
+- Adding UMD support
+
 # 1.0.0
 
 ## Features

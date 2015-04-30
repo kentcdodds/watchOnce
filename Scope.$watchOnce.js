@@ -22,9 +22,11 @@
     // Browser globals
     factory(angular);
   }
-}(function (angular) {    
+}(function (angular) {
   'use strict';
-  angular.module('Scope.$watchOnce', []).run(['$rootScope', function($rootScope) {
+  var ngModule = angular.module('Scope.$watchOnce', []);
+
+  ngModule.run(['$rootScope', function($rootScope) {
 
     var valueValidators = {
       $watch: angular.isDefined,
@@ -50,7 +52,7 @@
 
 
     // FUNCTIONS
-    
+
     function addOnces(scope) {
       if (!scope.$watchOnce) {
         angular.forEach(['$watch', '$watchGroup', '$watchCollection'], function(watchType) {
@@ -82,4 +84,6 @@
       };
     }
   }]);
+
+  return ngModule.name;
 }));
