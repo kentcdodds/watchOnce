@@ -1,15 +1,25 @@
 {
   "name": "watch-once",
-  "version": "0.0.3",
+  "version": "2.0.0",
   "description": "A simple module for angular that adds $watchOnce capabilities to the $rootScope",
-  "main": "Scope.$watchOnce.js",
+  "main": "index.js",
   "dependencies": {
     "angular": ">=1.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jshint": "^2.5.6",
+    "uglify-js": "^2.4.15"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/kentcdodds/watchOnce.git"
+  },
+  "scripts": {
+    "build": "scripts/build",
+    "uglify": "uglifyjs -mt --comments -o 'index.min.js' 'index.js'",
+    "test": "jshint 'index.js'",
+    "release": "git push && npm publish && git push --tags",
+    "release:beta": "git push && npm publish --tag beta && git push --tags"
   },
   "keywords": [
     "angular",
@@ -17,7 +27,7 @@
     "$watch",
     "$watchOnce"
   ],
-  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kent.doddsfamily.us)",
+  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kentcdodds/watchOnce/issues"

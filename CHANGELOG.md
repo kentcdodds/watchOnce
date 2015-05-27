@@ -1,3 +1,17 @@
+# 2.0.0
+
+- Renaming everything to `index.js` and `index.min.js` to fix [#2](/../../issues/2)
+
+# 1.1.0
+
+- Adding UMD support
+
+# 1.0.0
+
+## Features
+
+- Bumping to 1.0.0. Adding travis, and improving codeclimate (didn't actually change any of the content of the file).
+
 # 0.0.3
 
 ## Features

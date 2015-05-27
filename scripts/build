@@ -1,0 +1,3 @@
+set -e
+echo "jshinting" && npm test && echo "success"
+echo "uglifying" && npm run uglify && echo "success"

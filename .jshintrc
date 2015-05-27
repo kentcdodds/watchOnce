@@ -1,0 +1,25 @@
+{
+  "unused": true,
+  "undef": true,
+  "curly": true,
+  "forin": true,
+  "eqeqeq": true,
+  "immed": true,
+  "freeze": true,
+  "latedef": "nofunc",
+  "newcap": true,
+  "noarg": true,
+  "noempty": true,
+  "nonew": true,
+  "maxcomplexity": 4,
+  "strict": true,
+  "indent": 2,
+  "maxdepth": 3,
+  "quotmark": "single",
+  "trailing": true,
+
+  "browser": true,
+  "globals": {
+    "angular": true
+  }
+}

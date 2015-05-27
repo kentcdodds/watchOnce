@@ -1,4 +1,6 @@
 angular.module('example', ['Scope.$watchOnce']).run(function($rootScope) {
+  'use strict';
+  
   var calls = {
     $watch: 0,
     $watchOnce: 0,
