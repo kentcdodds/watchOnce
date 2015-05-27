@@ -10,7 +10,7 @@ This module adds `$watchOnce`, `$watchGroupOnce`, and `$watchCollectionOnce` to 
 
 ## To Get
 
-Get the code on [GitHub](http://github.com/kentcdodds/watchOnce): [Scope.$watchOnce.js](https://raw.githubusercontent.com/kentcdodds/watchOnce/master/Scope.$watchOnce.js) | [Scope.$watchOnce.min.js](https://raw.githubusercontent.com/kentcdodds/watchOnce/master/Scope.$watchOnce.min.js)
+Get the code on [GitHub](http://github.com/kentcdodds/watchOnce): [index.js](https://raw.githubusercontent.com/kentcdodds/watchOnce/master/index.js) | [index.min.js](https://raw.githubusercontent.com/kentcdodds/watchOnce/master/index.min.js)
 
 Or by using bower or npm:
 
@@ -25,12 +25,12 @@ Include it on your page with a script tag (or require it in using commonjs or am
 angular.module('app', [require('watch-once')]);
 
 // AMD
-define(['path/to/Scope.$watchOnce.js'], function(watchOnce) {
+define(['path/to/watch-once/index.js'], function(watchOnce) {
   angular.module('app', [watchOnce]);
 });
 
 // global
-angular.module('app', ['Scope.$watchOnce']);
+angular.module('app', ['watchOnce']);
 
 
 

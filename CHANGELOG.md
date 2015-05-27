@@ -1,3 +1,7 @@
+# 2.0.0
+
+- Renaming everything to `index.js` and `index.min.js` to fix [#2](/../../issues/2)
+
 # 1.1.0
 
 - Adding UMD support

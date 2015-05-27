@@ -1,13 +1,13 @@
 /**
- * @name Scope.$watchOnce
- * @version 1.0.0
- * @fileOverview The Scope.$watchOnce module adds $watchOnce functionality to your $rootScope
+ * @name watch-once
+ * @version 2.0.0
+ * @fileOverview The watchOnce module adds $watchOnce functionality to your $rootScope
  *
  * http://www.github.com/kentcdodds/watchOnce
  *
  * @license Scope.$watchOnce may be freely distributed under the MIT license.
- * @copyright (c) 2014 Kent C. Dodds
- * @author Kent C. Dodds <kent@doddsfamily.us> (http://kent.doddsfamily.us)
+ * @copyright (c) 2015 Kent C. Dodds
+ * @author Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com)
  */
 (function (factory) {
   /* jshint strict: false */
