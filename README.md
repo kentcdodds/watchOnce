@@ -30,7 +30,7 @@ define(['path/to/watch-once/index.js'], function(watchOnce) {
 });
 
 // global
-angular.module('app', ['watchOnce']);
+angular.module('app', ['Scope.$watchOnce']);
 
 
 
